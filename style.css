@@ -73,6 +73,8 @@ body {
 .first-row {
   background-color: rgba(228, 234, 239, 0.91) !important;
   color: black !important;
+  text-align: center !important;
+  align-items: center !important;
 }
 
 @media (min-width: 280px) and (max-width: 320px) {
@@ -84,7 +86,6 @@ body {
 @media only screen and (max-width: 600px) {
   .calculator-grid {
     max-width: 100%;
-    padding: 5rem;
     text-align: center;
   }
 }
